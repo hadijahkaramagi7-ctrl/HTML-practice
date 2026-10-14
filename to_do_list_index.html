@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>📝 To-Do List</h1>
+
+    <div class="input-row">
+      <input type="text" id="taskInput" placeholder="What needs doing?" />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" onclick="setFilter('all', this)">All</button>
+      <button class="filter" onclick="setFilter('active', this)">Active</button>
+      <button class="filter" onclick="setFilter('done', this)">Done</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="footer">
+      <span id="counter"></span>
+      <button class="clear" onclick="clearDone()">Clear Done</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
