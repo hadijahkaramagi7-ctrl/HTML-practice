@@ -1,6 +1,6 @@
 # Web & Console Projects
 
-A collection of beginner-friendly JavaScript projects — web apps and console apps.
+A collection of beginner-friendly JavaScript projects web apps and console apps.
 
 ## Projects
 
@@ -33,4 +33,4 @@ A collection of beginner-friendly JavaScript projects — web apps and console a
 
 ## Author
 
-Your Name — access number
+Hadijah Karamagi
