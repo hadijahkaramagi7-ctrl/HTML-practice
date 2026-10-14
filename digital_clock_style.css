@@ -1,0 +1,67 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Courier New', monospace;
+  background: #0f0f1a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+.clock {
+  background: #1a1a2e;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 3rem;
+  color: #0ff;
+  text-shadow: 0 0 15px #0ff;
+  letter-spacing: 3px;
+}
+
+.date { margin-top: 10px; color: #888; font-size: 1rem; }
+
+.stopwatch {
+  background: #1a1a2e;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.15);
+}
+
+.stopwatch h2 { color: #f0f; margin-bottom: 15px; font-size: 1.2rem; }
+
+.sw-time {
+  font-size: 2.2rem;
+  color: #f0f;
+  text-shadow: 0 0 12px #f0f;
+  margin-bottom: 20px;
+}
+
+.sw-buttons { display: flex; gap: 10px; justify-content: center; }
+
+.sw-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2b2b3d;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sw-buttons button:hover { background: #3d3d5c; }
+.sw-buttons button:first-child { background: #28a745; }
+.sw-buttons button:first-child:hover { background: #34ce57; }
